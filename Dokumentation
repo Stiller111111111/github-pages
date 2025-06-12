@@ -1,0 +1,34 @@
+Dokumentation
+
+im voraus, die grundlagen des spiels habe ich mir mithilfe des pygame tutorials auf youtube für einen citybuilder beigebracht. vorher hatte ich ein super mario spiel.
+wegen eines fehlers meinerseits, habe ich dieses aber mit einer datei ersetzt.
+
+29.05:
+grundbausteine des spiels hinzugefügt. Neue sachen: Fenster öffnet sich in Vollbild, erste karte(ohne alles, nur ein paar isometrische rechtecke)
+
+ziel für nächsten tag: boden malen, kamera erstellen
+
+30.05:
+der boden ist gemalt und ich habe ein paar bäume und steine hinzugefügt. ich kann jetzt in meiner game.py datei die größe meiner welt verändern. 
+die kamera bewegt sich, aber wenn ich zu weit nach unten oder rechts gehe, kommt ein fehler mit meiner grid_pos.
+
+Ziel: Hud machenund gebäude rein machen.
+
+31.05:
+habe ein hud gemacht und chat gbt hat mir geholfen den bug zu fixen(die bilder werden im hud mithilfe von einer funktion skaliert). man kann jetzt die ersten gebäude platzieren und ich habe die welt mit perlin noise generiert. 
+man kann gebäude auch nichtmehr in bäumen oder steinen platzieren.
+
+01.06:
+ich habe es geschafft einen knopf zum abreißen zu machen. mit dem gleichen prinzip habe ich dann auch noch einen zum bäume fällen gemacht. die gebäude werden aber nichtmehr gemalt(ich habe buttons für die gebäude gemacht)
+
+ziel: bug mit gebäuden fixen (kollision geht aber komischerweise trotzdem noch)
+
+02.06:
+habe nur ein paar grafiken gemacht und die gebäude können sich jetzt updaten. also mit jedem frame +1. das ist dann wichtig, dafür dass ich holz etc. bekomme.
+habe auch wasser mit dem gleichen prinzip gemacht(perlin noise). habe das spiel auch noch etwas anschaulicher gebacht. hotbar ist jetzt schwarz und rechts un der seite.
+gebäude info in der mitte und die resourcen leiste ist etwas von dem rand entfernt.
+
+Ziel: bug mit den gebäuden fixen
+
+03.06: 
+habe den bug gefixt, die zeile war nur falsch eingeschogben (wegen vorherigem "pass" gab es keinen fehler). 
